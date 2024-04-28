@@ -27,7 +27,7 @@ def create_database():
                         capacity INTEGER
                     )''')
 
-    students = [('Alice',), ('Bob',), ('Charlie',), ('David',)]
+    students = [('Kalia',), ('Bholu',), ('Chutki',), ('Dholu',)]
     cursor.executemany("INSERT INTO students (name) VALUES (?)", students)
 
     classes = [('Class A',), ('Class B',), ('Class C',)]
